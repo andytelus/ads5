@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="AoFosINggmvNw6rAJHiAdew_B13dBjUDlIf12S4T" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>Mobile App and Query Evaluation for Google Search</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Mobile App and Query Evaluation for Google Search</title>
+        <adlcp:dataFromLMS>eyJjcHYiOiJsSWYxMlM0VCJ9</adlcp:dataFromLMS>
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+        <imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/4oE_IVh4hPS5FUWN_small_1514971494.jpg" />
+<file href="scormcontent/assets/9lzvf3BNXj1aCeDC_small.png" />
+<file href="scormcontent/assets/XN6Q2DFkhK0ybZHQ_small.png" />
+<file href="scormcontent/assets/GFJlMpw6Hsg604yN_small.png" />
+<file href="scormcontent/assets/dZoVZ2c4FaWH5HEw_-vJY6VezvlfItBtB.png" />
+<file href="scormcontent/assets/CnSgUjEOcBK8Pwqo_transcoded-ZF_QsUNdr12wAlYo-mobile-app-and-query-evaluation-for-google-searche-0-jb-6-os-lw-6-hqw-beta-00001.png" />
+<file href="scormcontent/assets/4x22YDgi3AbAtfwR_transcoded-ZF_QsUNdr12wAlYo-mobile-app-and-query-evaluation-for-google-searche-0-jb-6-os-lw-6-hqw-beta.mp4" />
+<file href="scormcontent/assets/UwaLO2m66hH-7f3l_CHDmbzilQopRKULf-stock-image.jpg" />
+<file href="scormcontent/assets/5sdJNJlLvQQsJlPx_AOuoBs8khNN4zu_r.jpg" />
+<file href="scormcontent/assets/kzf14J7neqynW_vS_transcoded-tt5d496uFEVXcLK1-google%20play%20app-00001.png" />
+<file href="scormcontent/assets/TevmDRwbWLn6KQRg_transcoded-tt5d496uFEVXcLK1-google%20play%20app.mp4" />
+<file href="scormcontent/assets/yS-Aqn1HCedmrNQD_qYy38tl28ZiZmDIo-stock-image.jpg" />
+<file href="scormcontent/assets/CpmXcQIEmKr790-S_duKyzBRLELjec9rn-stock-image.jpg" />
+<file href="scormcontent/assets/nUKrfIsDfyNip9h6_WGgZwwl1z7ktySUU-stock-image.jpg" />
+<file href="scormcontent/assets/N-YjU17Nz5DGYArC_GpZxqJVIVak_g51Y-stock-image.jpg" />
+<file href="scormcontent/assets/DX9JcQHnu6hFU3ba_wLLMzIkvQIoq_QVy-stock-image.jpg" />
+<file href="scormcontent/assets/MxyEDGPVIWDb45___z3X1xeoIet4w7cbZ.jpg" />
+<file href="scormcontent/assets/V2Zlf7L4HdKZSfF4_0CuzmEtUrX8rq4oa.jpg" />
+<file href="scormcontent/assets/k77JYiN0WysSquHe_9gJDSQuV8FtiJRfq.jpg" />
+<file href="scormcontent/assets/tnGSMedWaOhu-1gL_MOj-dl_UF15QDYfz.jpg" />
+<file href="scormcontent/assets/Fa5wT2Uw3SYTQ1rD_LZaGKszUFFfbqbsp.jpg" />
+<file href="scormcontent/assets/xHH-y7kOmRj1q0X3_p55-g2UwtoSfYZNV.jpg" />
+<file href="scormcontent/assets/e5mdxHsmvrok8-pS_7dRAmKsY4ahpgrul-stock-image.jpg" />
+<file href="scormcontent/assets/xZW-5S0MciBFez5U_41_abstract.jpg" />
+<file href="scormcontent/assets/3P12uQ6ATidXG9xG_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
